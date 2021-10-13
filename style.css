@@ -1,0 +1,76 @@
+body {
+    background-image: url('assets/star-background.jpg');
+    color: rgb(0, 255, 13);
+}
+#logo{
+    width: 300px;
+    height: 75px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-content {
+    width:66%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.inner-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    width: 111px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #CCCCCC;
+}
+
+.inline-image-left {
+    float: left;
+}
+
+.inline-image-right {
+    margin-right: 200px;
+    float: right;
+}
+
+.navlink {
+    color:white;
+    margin-right: 10px;
+}
+
+a {
+    color: rgb(0, 255, 13);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.last-updated {
+    color: red;
+    text-align: right;
+}
+
+.picture-display-portrait {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(0, 255, 13);
+    width: 270px;
+    height: 480px;
+}
+
+.picture-display-landscape {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(0, 255, 13);
+    width: 480px;
+    height: 270px;
+}
